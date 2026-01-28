@@ -228,11 +228,23 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.18537521, y: 0.8649628}
+      - {x: -0.08659935, y: 0.90669644}
+      - {x: -0.41055584, y: 0.82203007}
+      - {x: -0.5017481, y: 0.7313311}
+      - {x: -0.52757365, y: 0.30901697}
+      - {x: -0.4738779, y: -0.019682884}
+      - {x: -0.2973709, y: -0.18486857}
+      - {x: -0.29070568, y: -0.31346035}
+      - {x: -0.34129852, y: -0.6936661}
+      - {x: 0.42269862, y: -0.67264104}
+      - {x: 0.21447802, y: -0.27523398}
+      - {x: 0.4165759, y: -0.24018025}
+      - {x: 0.4362483, y: 0.14905667}
+      - {x: 0.28987837, y: 0.17270136}
+      - {x: 0.30372143, y: 0.3601098}
+      - {x: 0.263731, y: 0.47174358}
+      - {x: 0.3135743, y: 0.68219036}
   m_UseDelaunayMesh: 1
 --- !u!1 &226597122
 GameObject:
@@ -787,6 +799,7 @@ GameObject:
   - component: {fileID: 741526228}
   - component: {fileID: 741526229}
   - component: {fileID: 741526230}
+  - component: {fileID: 741526231}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -882,6 +895,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Environment.ParallaxBackground
   spriteRenderer: {fileID: 741526229}
   speed: -1
+--- !u!61 &741526231
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741526227}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 17.777779, y: 1.6666666}
+    newSize: {x: 54, y: 1.6666666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  m_Size: {x: 17.777779, y: 1.6666666}
+  m_EdgeRadius: 0
 --- !u!1 &1011093247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,6 +1232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886989739}
+  - component: {fileID: 1886989740}
   m_Layer: 0
   m_Name: Teca
   m_TagString: Untagged
@@ -1196,6 +1256,33 @@ Transform:
   - {fileID: 1658185585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1886989740
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886989738}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 5
 --- !u!1 &1911809532
 GameObject:
   m_ObjectHideFlags: 0
