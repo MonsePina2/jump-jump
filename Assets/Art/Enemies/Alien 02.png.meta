@@ -121,7 +121,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -135,7 +135,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -159,7 +159,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -180,6 +180,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -187,12 +200,12 @@ TextureImporter:
       name: Alien 02_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 220
-        width: 20
-        height: 23
+        x: 0
+        y: 214
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +222,12 @@ TextureImporter:
       name: Alien 02_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 220
-        width: 21
-        height: 22
+        x: 48
+        y: 214
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +244,12 @@ TextureImporter:
       name: Alien 02_2
       rect:
         serializedVersion: 2
-        x: 110
-        y: 220
-        width: 21
-        height: 21
+        x: 96
+        y: 214
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +266,12 @@ TextureImporter:
       name: Alien 02_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 220
-        width: 19
-        height: 22
+        x: 144
+        y: 214
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +288,12 @@ TextureImporter:
       name: Alien 02_4
       rect:
         serializedVersion: 2
-        x: 209
-        y: 220
-        width: 18
-        height: 21
+        x: 192
+        y: 214
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +310,12 @@ TextureImporter:
       name: Alien 02_5
       rect:
         serializedVersion: 2
-        x: 257
-        y: 220
-        width: 18
-        height: 19
+        x: 240
+        y: 214
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +332,12 @@ TextureImporter:
       name: Alien 02_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 182
-        width: 16
-        height: 23
+        x: 0
+        y: 172
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +354,12 @@ TextureImporter:
       name: Alien 02_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 182
-        width: 17
-        height: 21
+        x: 48
+        y: 172
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +376,12 @@ TextureImporter:
       name: Alien 02_8
       rect:
         serializedVersion: 2
-        x: 113
-        y: 182
-        width: 14
-        height: 24
+        x: 96
+        y: 172
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +398,12 @@ TextureImporter:
       name: Alien 02_9
       rect:
         serializedVersion: 2
-        x: 161
-        y: 182
-        width: 13
-        height: 23
+        x: 144
+        y: 172
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +420,12 @@ TextureImporter:
       name: Alien 02_10
       rect:
         serializedVersion: 2
-        x: 208
-        y: 182
-        width: 14
-        height: 21
+        x: 192
+        y: 172
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +442,12 @@ TextureImporter:
       name: Alien 02_11
       rect:
         serializedVersion: 2
-        x: 257
-        y: 182
-        width: 13
-        height: 24
+        x: 240
+        y: 172
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +464,12 @@ TextureImporter:
       name: Alien 02_12
       rect:
         serializedVersion: 2
-        x: 15
-        y: 144
-        width: 21
-        height: 23
+        x: 0
+        y: 130
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +486,12 @@ TextureImporter:
       name: Alien 02_13
       rect:
         serializedVersion: 2
-        x: 61
-        y: 144
-        width: 26
-        height: 23
+        x: 48
+        y: 130
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +508,12 @@ TextureImporter:
       name: Alien 02_14
       rect:
         serializedVersion: 2
-        x: 107
-        y: 144
-        width: 34
-        height: 23
+        x: 96
+        y: 130
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +530,12 @@ TextureImporter:
       name: Alien 02_15
       rect:
         serializedVersion: 2
-        x: 154
-        y: 144
-        width: 39
-        height: 23
+        x: 144
+        y: 130
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +552,12 @@ TextureImporter:
       name: Alien 02_16
       rect:
         serializedVersion: 2
-        x: 203
-        y: 144
-        width: 21
-        height: 23
+        x: 192
+        y: 130
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +574,12 @@ TextureImporter:
       name: Alien 02_17
       rect:
         serializedVersion: 2
-        x: 253
-        y: 144
-        width: 21
-        height: 23
+        x: 240
+        y: 130
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +596,12 @@ TextureImporter:
       name: Alien 02_18
       rect:
         serializedVersion: 2
-        x: 14
-        y: 106
-        width: 21
-        height: 22
+        x: 0
+        y: 88
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +618,12 @@ TextureImporter:
       name: Alien 02_19
       rect:
         serializedVersion: 2
-        x: 62
-        y: 106
-        width: 21
-        height: 20
+        x: 48
+        y: 88
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +640,12 @@ TextureImporter:
       name: Alien 02_20
       rect:
         serializedVersion: 2
-        x: 110
-        y: 106
-        width: 21
-        height: 17
+        x: 96
+        y: 88
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +662,12 @@ TextureImporter:
       name: Alien 02_21
       rect:
         serializedVersion: 2
-        x: 159
-        y: 113
-        width: 17
-        height: 24
+        x: 144
+        y: 88
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +684,12 @@ TextureImporter:
       name: Alien 02_22
       rect:
         serializedVersion: 2
-        x: 208
-        y: 117
-        width: 15
-        height: 21
+        x: 192
+        y: 88
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +706,12 @@ TextureImporter:
       name: Alien 02_23
       rect:
         serializedVersion: 2
-        x: 254
-        y: 112
-        width: 19
-        height: 24
+        x: 240
+        y: 88
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +728,12 @@ TextureImporter:
       name: Alien 02_24
       rect:
         serializedVersion: 2
-        x: 11
-        y: 45
-        width: 40
-        height: 46
+        x: 0
+        y: 46
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +750,12 @@ TextureImporter:
       name: Alien 02_25
       rect:
         serializedVersion: 2
-        x: 65
-        y: 43
-        width: 23
-        height: 46
+        x: 48
+        y: 46
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +772,12 @@ TextureImporter:
       name: Alien 02_26
       rect:
         serializedVersion: 2
-        x: 106
-        y: 41
-        width: 31
-        height: 46
+        x: 96
+        y: 46
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +794,12 @@ TextureImporter:
       name: Alien 02_27
       rect:
         serializedVersion: 2
-        x: 137
-        y: 40
-        width: 50
-        height: 41
+        x: 144
+        y: 46
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,12 +816,12 @@ TextureImporter:
       name: Alien 02_28
       rect:
         serializedVersion: 2
-        x: 212
-        y: 66
-        width: 23
-        height: 15
+        x: 192
+        y: 46
+        width: 48
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -821,11 +834,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Alien 02_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cadf35c1eaa674e98a95e503e531c9
+      internalID: -736024500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 02_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 4
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87499cb4de855546bf668be735d0bc7
+      internalID: 897117055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 02_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51102eb8f92c3c4ba474749efa81d22
+      internalID: -169354928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 70ea1e1ca3a438246b3ddaf619732193
     internalID: 0
     vertices: []
     indices: 
@@ -833,7 +912,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":48.0,"y":42.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Alien 02_0: -4706850802646732776
       Alien 02_1: -4610920003661061230
@@ -857,7 +938,10 @@ TextureImporter:
       Alien 02_26: -4906866671658962511
       Alien 02_27: 2583786384440018863
       Alien 02_28: 6419355873381073260
+      Alien 02_29: -736024500
       Alien 02_3: 7557507997351843362
+      Alien 02_30: 897117055
+      Alien 02_31: -169354928
       Alien 02_4: -3925647231974318023
       Alien 02_5: 2682092850315898235
       Alien 02_6: -5102182683794601307
