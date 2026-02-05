@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 1707987334034432058}
   - component: {fileID: 6266969350932868994}
   - component: {fileID: 1538680309771786509}
+  - component: {fileID: 6410830020985572223}
   m_Layer: 0
   m_Name: Cagatio
   m_TagString: Enemy
@@ -331,3 +332,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.Behaviors.FreezeYOnGround
   rb: {fileID: 6266969350932868994}
   groundCollider: {fileID: 2133993903217464995}
+--- !u!95 &6410830020985572223
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856241506359401329}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed86b986c33d08f44842429571cf15c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
