@@ -698,7 +698,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289495575}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -906,7 +906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.3999634, y: 116.59384}
+  m_AnchoredPosition: {x: -1.3999023, y: 116.59381}
   m_SizeDelta: {x: -173.3999, y: -372.2969}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401550951
@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 419721125}
   - component: {fileID: 419721124}
   m_Layer: 5
-  m_Name: Replay (1)
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1007,11 +1007,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 0.079782486, g: 0, b: 1, a: 1}
+    m_HighlightedColor: {r: 0, g: 0.550298, b: 1, a: 1}
+    m_PressedColor: {r: 0, g: 0.9282391, b: 1, a: 1}
+    m_SelectedColor: {r: 0, g: 1, b: 0.3916428, a: 1}
+    m_DisabledColor: {r: 0.45048714, g: 1, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1029,7 +1029,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 419721125}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1164494771}
+        m_TargetAssemblyTypeName: Managers.GameManager, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &419721125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,12 +2324,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Managers.UIManager
   eventSystem: {fileID: 1874300702}
   mainMenuDefaultSelection: {fileID: 14755618}
-  gameOverDefaultSelection: {fileID: 0}
+  gameOverDefaultSelection: {fileID: 1578527693}
   mainMenuUI: {fileID: 169529794}
   gameUI: {fileID: 358035001}
   gameScoreText: {fileID: 121762157}
-  gameOverUI: {fileID: 0}
-  gameOverScoreText: {fileID: 0}
+  gameOverUI: {fileID: 1991087361}
+  gameOverScoreText: {fileID: 1785032377}
 --- !u!4 &1303035337
 Transform:
   m_ObjectHideFlags: 0
@@ -2702,11 +2714,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.18679237, b: 0.55831254, a: 1}
+    m_PressedColor: {r: 1, g: 0.72264147, b: 0.8700095, a: 1}
+    m_SelectedColor: {r: 1, g: 0.27735847, b: 0.78623384, a: 1}
+    m_DisabledColor: {r: 0.6955943, g: 0, b: 1, a: 0.7372549}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2724,7 +2736,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1578527696}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1164494771}
+        m_TargetAssemblyTypeName: Managers.GameManager, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1578527696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2987,7 +3011,7 @@ GameObject:
   - component: {fileID: 1785032378}
   - component: {fileID: 1785032377}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Score Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3178,7 +3202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.3999634, y: -105.7}
+  m_AnchoredPosition: {x: -1.3999023, y: -105.70001}
   m_SizeDelta: {x: -173.40002, y: 206.9}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1803350091
